@@ -48,7 +48,7 @@ This script uses "Hardware Polling". It detects when the keyboard disconnects fr
       1. Press `Win + R`, type `shell:startup`, and press Enter.
       2. Create a shortcut in this folder.
       3. Set the shortcut target to:
-         `powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\LogiSwitch\PC1_SwitchTo2.ps1"`
+         `cmd.exe /c start /min "" powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\LogiSwitch\PC1_SwitchTo2.ps1"`
          *(Change the filename accordingly for PC 2).*
 
 ⚠️ Disclaimer
