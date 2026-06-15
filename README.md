@@ -12,7 +12,8 @@ This script uses "Hardware Polling". It detects when the keyboard disconnects fr
 
 📦 Prerequisites
 - 2 Windows PCs.
-- **hidapitester.exe** (Command line tool to talk to USB devices).
+- hidapitester.exe (Command line tool to talk to USB devices).
+- ControlMyMonitor.exe
 - This repository's scripts.
 
 🚀 Installation
@@ -20,7 +21,7 @@ This script uses "Hardware Polling". It detects when the keyboard disconnects fr
       1. Create a folder `C:\LogiSwitch` on BOTH computers.
       2. Download `hidapitester_windows_x64.zip` from [todbot/hidapitester](https://github.com/todbot/hidapitester/releases) and extract `hidapitester.exe` into that folder.
       3. Download the scripts from this repository (`0_Get_IDs.ps1`, `PC1_SwitchTo2.ps1`, `PC2_SwitchTo1.ps1`) and place them in the folder.
-      4. Download ControlMyMonitor from https://www.controlmymonitor.com/ and place it into that folder.
+      4. Download ControlMyMonitor from [https://www.controlmymonitor.com/](url) and place it into that folder.
       
    2. Prepare: Get your Hardware IDs on one of your computers:
          1. Right-click `0_Get_IDs.ps1` and select **Run with PowerShell**.
